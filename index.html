@@ -6,20 +6,20 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body class="page">
-    <div class="header">
+    <header class="header">
       <img src="./eisenhower-matrix.jpg" class="header-img">
       <a class="header-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="main-page">
-      <p id="new-task-create">
+    </header>
+    <main class="main-page">
+      <div id="new-task-create">
         <label for="new-task" class="new-task-label">Add Item</label>
         <div class="new-task-wrapper">
           <input id="new-task"class="input task task-input" type="text">
           <button class="button">Add</button>
         </div>
-      </p>
+      </div>
       <h3 class="main-page__title">Todo</h3>
-      <ul id="incompleted-tasks" class="tasks-list">
+      <section id="incompleted-tasks" class="tasks-list">        
         <li class="tasks-list__item">
           <input type="checkbox" class="tasks-list__checkbox">
           <label class="label task">Pay Bills</label>
@@ -38,9 +38,9 @@
             <img src="./remove.svg" class="delete-button-image">
           </button>
         </li>
-      </ul>
+      </section>
       <h3 class="main-page__title">Completed</h3>
-      <ul id="completed-tasks" class="tasks-list">
+      <section id="completed-tasks" class="tasks-list">       
         <li class="tasks-list__item">
           <input type="checkbox" class="tasks-list__checkbox" checked>
           <label class="label task">See the Doctor</label>
@@ -50,8 +50,8 @@
             <img src="./remove.svg" class="delete-button-image">
           </button>
         </li>
-      </ul>
-    </div>
+      </section>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
