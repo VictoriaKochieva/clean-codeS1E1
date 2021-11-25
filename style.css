@@ -40,10 +40,12 @@
   margin: 0;
   padding: 0px;
 }
-.tasks-list__item, .main-page__title {
+.tasks-list__item,
+.main-page__title {
   list-style: none;
 }
-.input,.button{
+.input,
+.button{
   outline: none;
 }
 .button {
