@@ -28,12 +28,12 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.tasks-content {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.new-task-wrapper {
+.new-task__wrapper {
   display: flex;
 }
 .tasks-list {
@@ -62,7 +62,7 @@
 }
 /* Heading */
 .main-page__title,
-.new-task-label {
+.new-task__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -88,7 +88,7 @@
 }
 
 /* New Task */
-.new-task-label {
+.new-task__label {
   display: block;
   margin: 0 0 20px;
 }
@@ -122,12 +122,12 @@
 .tasks-list__item >    .task-input {
   width: 226px;
 }
-.delete-button-image {
+.btn_delete-image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete-button-image:hover {
+.btn_delete-image:hover {
   transform: rotateZ(0);
 }
 
