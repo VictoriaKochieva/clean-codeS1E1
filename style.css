@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.header-img {
+.header__img {
   width: 100%;
 }
 
-.header-info {
+.header__info {
   font-family: fantasy, cursive;
 }
 
@@ -25,7 +25,7 @@
   .header { 
     text-align: center;
   }
-  
+
 }
 
 .main-page {
