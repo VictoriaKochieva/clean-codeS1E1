@@ -130,7 +130,7 @@
   margin: 0 10px;
 }
 
-.tasks-list__item > label {
+.tasks-list__item > .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
